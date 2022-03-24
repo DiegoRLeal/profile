@@ -44,7 +44,7 @@ a {
 }
 
 a:hover {
-	color: black;
+	color: white;
 }
 
 button {
@@ -56,20 +56,24 @@ button:hover {
 	color: black;
 }
 
+@media (max-width: 1920px) {
 .container {
 	background-color: white;
 	width: 600px;
 	padding: 50px;
 	text-align: center;
 	margin: 40px auto 5px;
+  }
 }
 
+@media (max-width: 1920px) {
 .card {
 	background-color: white;
 	width: 660px;
 	margin: 20px auto 80px;
 	padding: 20px;
 	text-align: center;
+  }
 }
 
 div {
@@ -78,10 +82,10 @@ div {
 
 .btn-blue {
 	background-color: #6b73e2;
-  	padding: 15px 25px;
-  	text-decoration: none;
-  	border-radius: 5%;
-  }
+  padding: 15px 25px;
+  text-decoration: none;
+  border-radius: 5%;
+}
 
 .btn-blue:hover {
 	background-color: black;
@@ -101,11 +105,11 @@ div {
 }
 
 .list-inline {
-  	list-style: none;
-  	padding-left: 0px;
-  	text-decoration: white;
+  list-style: none;
+  padding-left: 0px;
+  text-decoration: white;
  }
 
 .img-circle {
-  	border-radius: 50%;
+  border-radius: 50%;
 }
